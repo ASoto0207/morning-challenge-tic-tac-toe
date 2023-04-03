@@ -1,0 +1,70 @@
+
+/* .box{
+    width:75px; 
+    height:75px;
+    border:2px solid black; 
+    box-shadow:0 0 0 2px;
+    font: larger bold 20px; 
+    text-align: center;
+} */
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height:200px;
+    width:225px;
+    border:2px solid black; */
+#blocks{
+    display: flex;
+    align-items: center;
+    font-family: 'Rock Salt', cursive;
+    font-size:70px;
+    height:100px;
+    width: 100px;
+    border:2px solid black;
+}
+.theBattleField{
+    display:flex;
+    flex-wrap:wrap;
+    width: 400px;
+    justify-content: flex-end;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    background-image: url(homie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#doOver{
+    width:100px;
+    height:50px;
+    background-color:rgb(255, 0, 0);
+    color:white; 
+    font: bold;
+    font-size:23px;
+    margin-top:5%;
+    border-radius: 10px;
+    border:none; 
+}
+.thisButton{
+    display:flex; 
+    justify-content: flex-end;
+}
+h1{
+    font-family: 'Rock Salt', cursive;
+    font-size:100px;
+}
+
+
